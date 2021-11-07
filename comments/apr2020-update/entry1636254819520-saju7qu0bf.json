@@ -1,0 +1,8 @@
+{
+  "comment": "Link,\n\nIt works desktop-to-desktop but currently there's no UI in the desktop app to connect one desktop to another. Currently, you can manually add information to the Buckets application database to get it to work, but since it's a read-only sync, it's not very useful yet for desktops.\n\nShort answer: yes, but not yet",
+  "email": "3a760317157c33e6b977df8e35ae857d",
+  "name": "Matt",
+  "subdir": "apr2020-update",
+  "_id": "1636254819520-saju7qu0bf",
+  "date": 1636254819520
+}
