@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "Before running this, close the PRs you don't want merged."
-read -p "Press enter to continue..."
-
 if ! git remote | grep bot; then
   git remote add bot https://github.com/buckets-comments/blog-comments.git
 fi
