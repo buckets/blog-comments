@@ -4,6 +4,7 @@ if ! git remote | grep bot; then
   git remote add bot https://github.com/buckets-comments/blog-comments.git
 fi
 
+skipped=""
 git fetch --prune bot >/dev/null 2>/dev/null
 for branch in $(git branch --remotes --no-merged); do
   echo "-------------------------------------------------------"
@@ -14,5 +15,13 @@ for branch in $(git branch --remotes --no-merged); do
     git merge --no-edit "${branch}"
   else
     echo skipping ${branch}
+    skipped="${skipped} ${branch}"
   fi
 done
+
+if ! [ -z "$skipped" ]; then
+  echo "To delete unmerged branches:"
+  for branch in $skipped; do
+    echo "git push bot :${branch}"
+  done
+fi
