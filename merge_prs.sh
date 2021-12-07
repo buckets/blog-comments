@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if ! git remote | grep bot; then
-  git remote add bot https://github.com/buckets-comments/blog-comments.git
+  git remote add bot git@github.com:buckets-comments/blog-comments.git
 fi
 
 skipped=""
@@ -20,8 +20,11 @@ for branch in $(git branch --remotes --no-merged); do
 done
 
 if ! [ -z "$skipped" ]; then
-  echo "To delete unmerged branches:"
+  echo "=================================="
+  echo "To delete comments (username: buckets-comments):"
+  echo ""
   for branch in $skipped; do
-    echo "git push bot :${branch}"
+    echo "git push bot ':$branch'"
   done
+  echo ""
 fi
