@@ -1,0 +1,8 @@
+{
+  "comment": "This finally allows me to import OFX from my second bank - however, the beta is allowing duplicate imports on this account instead of updating existing transactions, and it's also reporting that the synced balance doesn't match - as far as I can tell the OFX file contains no value for synced balance (<LEDGERBAL>), so it's being read as 0?\n\nI don't think this is quite coherent enough to log as an issue, so I'm putting it here.",
+  "email": "5425b878ca550457b7e483c6162ea353",
+  "name": "Qmanol",
+  "subdir": "buckets-0.65-import-improvements",
+  "_id": "1646557580957-5hcw5pgf1za",
+  "date": 1646557580957
+}
