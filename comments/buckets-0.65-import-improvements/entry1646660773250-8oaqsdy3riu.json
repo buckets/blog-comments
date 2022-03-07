@@ -1,0 +1,8 @@
+{
+  "comment": "Qmanol,\n\nSorry about the duplicate imports. This new version changed the way it assigned unique IDs to transactions so newly imported transactions will not be correctly matched (and ignored) with formerly imported transactions. However, this should not be a problem after about a month (or however far back your OFX transaction history goes).\n\nAnd I've filed an issue for the synced balance warning. Thank you for saying something!",
+  "email": "3a760317157c33e6b977df8e35ae857d",
+  "name": "Matt",
+  "subdir": "buckets-0.65-import-improvements",
+  "_id": "1646660773250-8oaqsdy3riu",
+  "date": 1646660773250
+}
