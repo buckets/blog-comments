@@ -1,0 +1,8 @@
+{
+  "comment": "The unsupported Android devices is unintentional. I think I accidentally set the target ABI version too high. I'll try to fix this on the next release.",
+  "email": "3a760317157c33e6b977df8e35ae857d",
+  "name": "Matt",
+  "subdir": "december-update",
+  "_id": "1672668204368-72zevq4osqd",
+  "date": 1672668204368
+}
