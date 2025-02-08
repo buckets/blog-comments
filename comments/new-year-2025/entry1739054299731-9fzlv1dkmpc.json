@@ -1,0 +1,8 @@
+{
+  "comment": "Hey Matt, I may have found a possible bug, can you replicate? Running v0.78\nCategorizing transactions in bulk doesn't seem to work using the search option. Adding/changing other values (Payee, Memo, etc) does.\n",
+  "email": null,
+  "name": "Erik",
+  "subdir": "new-year-2025",
+  "_id": "1739054299731-9fzlv1dkmpc",
+  "date": 1739054299731
+}
