@@ -1,0 +1,8 @@
+{
+  "comment": "The relay solves a big problem many of us were having.\n\nDid anyone test or report if the original local LAN sharing functionality worked over virtual network overlays such as ZeroTier or Tailscale?\n",
+  "email": "e92600bef26db1eb18f54a4169db798e",
+  "name": "Seth",
+  "subdir": "relay-available",
+  "_id": "1768846866867-uyn4vgg3p",
+  "date": 1768846866867
+}
