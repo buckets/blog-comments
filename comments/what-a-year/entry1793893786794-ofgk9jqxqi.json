@@ -1,0 +1,8 @@
+{
+  "comment": "I discovered a few months ago that ChatGPT was quite capable of building a budgeting app similar to Buckets. The first step was to create a web UI for a google sheets envelope budget AI had helped me develop.  That was great, but using a spreadsheet like a database is pretty cumbersome. So I asked AI what are the options?  Well there were plenty. I ended up using PostgreSQL, Flask, and Coolify.  AI did 99% of the coding and development. I supervised, tested, and then approved what it did.  It even helped my move it to a deployment on the web (mapledeploy).  It would have taken me several years to bring this budget app to any type of functionality. So AI has been amazing, and helped me learn by doing, which is my best method.  So now I have an envelope budget that is totally mine and budgets exactly the way I do!  But I don't really want AI to have total control and start suggesting how I should budget.",
+  "email": "11e177d57b0f39c2a9062981030fad16",
+  "name": "Jim Mertel",
+  "subdir": "what-a-year",
+  "_id": "1793893786794-ofgk9jqxqi",
+  "date": 1793893786794
+}
